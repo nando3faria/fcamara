@@ -1,0 +1,61 @@
+1) Se você tivesse 5 diferentes arquivos de folhas de estilo, qual seria a
+melhor forma de integrá-los no site?
+
+Usando a tag link para cada arquivo:
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+
+2) Fale 3 formas de diminuir o page load (tempo de carregamento real e
+percebido).
+
+Utilizar linguagem atualizada (como HTML5), utilizar imagens mais comprimidas, e otimizar o código fonte em base nas ferramentas de performance.
+
+
+3) Quais ferramentas você usa para testar a performance do seu código?
+
+Network Dev Tools do Google Chrome e Performance Dev Tools do Mozilla Firefox.
+
+
+4) Considere o HTML5 como uma plataforma web aberta. Quais são os
+blocos de construção de HTML5?
+
+div, ul, ol, h1 a h6, p, blockquote e form
+
+
+5) Você pode explicar a diferença entre GET e POST?
+
+GET envia dados somente em texto através URL como string.
+POST é mais seguro por esconder esses dados além de permitir dados além de textos.
+
+
+6) Liste quantas propriedades display você puder lembrar.
+
+block, inline, inline-block, none, inherit.
+
+
+7) Qual a diferença entre inline e inline-block?
+
+inline: Transforma o elemento de bloco em linha.
+inline-block: Mostra o bloco com seu tamanho normal em meio a um texto.
+
+
+8) Qual a diferença entre elementos posicionados de forma relativa, fixa,
+absoluta e estática?
+
+relativa: Elemento é posicionado no fluxo normal da página e aceita as propriedades top, bottom, left, e right.
+fixa: Elemento é fixado na tela, mesmo se usando barra de rolagem.
+absoluta: Elemento é fixado à frente da página
+estática: (Padrão) Faz o elemento seguir o fluxo normal da página, não aceita as propriedades top, bottom, left, e right.
+
+
+9) Qual a diferença entre .call e .apply?
+
+.call com valor especificado em lista um a um:
+	[...] .call(contexto, parâmetro1, parâmetro2);
+.apply com valor especificado com array de parâmetros:
+	[...] .apply(contexto, [parâmetro1, parâmetro2]);
+
+10) Qual a diferença entre == e ===?
+
+==: compara o valor da variável.
+===: compara o tipo da variável, além do valor.
